@@ -14,7 +14,9 @@ public:
 
 	virtual ~ConcertAttendees() {}
 
-	std::string GetName() { return m_name; }
+	std::string GetName() { 
+		return m_name; 
+	}
 
 	virtual bool HasMeetAndGreetAccess() = 0;
 	virtual bool HasPreConcertAccess() = 0;
